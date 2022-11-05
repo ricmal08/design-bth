@@ -21,6 +21,6 @@ git push --tags
 ----------
 Release:
 
-1.0 
+1.0.1
 Added logo, images and updated layout. Included description in 'hobby'
 
