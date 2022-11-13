@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -15,6 +19,7 @@ ol, ul {
 
 html, body {
     height: 100%;
+    text-align: center;
 }
 
 /* Placement */
@@ -22,9 +27,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .main {
+    flex: 1 0 auto;
+    width: 80%;
     flex: 1 0 auto;
 }
 
@@ -34,11 +42,20 @@ body {
 
 /* Header */
 
+.header {
+    background-color:#000c1f;
+    color:rgb(255, 255, 255);
+    
+}
+
 .header, .site-header {
     display: flex;
     justify-content: space-between;
 }
 
+.nav a {
+    color:#f5f5f5;
+}
 /* Title */
 
 .title, .logo {
@@ -58,11 +75,20 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: rgb(255, 255, 255);
 }
 
 .title p {
     font-style: italic;
+}
+
+img {
+    width: 100px;
+}
+
+.midsommar {
+    width: 500px;
+    margin: 25px;
 }
 
 /* Footer */

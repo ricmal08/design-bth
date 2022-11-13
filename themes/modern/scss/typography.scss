@@ -1,0 +1,13 @@
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1em;
+}
+
+@media (min-width: 64 em) {
+    html {
+        font-size: 112.5%;
+    }
+}
