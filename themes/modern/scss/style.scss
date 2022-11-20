@@ -9,6 +9,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 
 @import 'code';
+@import 'technologies';
 
 @import 'mobile-nav';
 
@@ -68,6 +69,7 @@ ul {
 html {
     height: 100%;
     text-align: center;
+    text-decoration: none !important; 
 }
 
 body {
@@ -122,6 +124,7 @@ body {
 
 .title {
     padding: 3em 3em 3em 0;
+    text-decoration: none !important; 
 }
 
 .logo {
@@ -146,6 +149,7 @@ body {
 
 .title p {
     font-style: italic;
+    text-decoration: none !important; 
 }
 
 img {
@@ -183,6 +187,7 @@ img {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
+    text-decoration: none !important; 
     
 }
 
@@ -191,6 +196,7 @@ p {
     overflow-wrap: break-word;
     word-wrap: break-word;
     color: #000;
+    text-decoration: none !important; 
 }
 
 td {
@@ -211,7 +217,8 @@ li {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    color: #000;
+    color: #000;    
+
 }
 
 dd {
@@ -308,4 +315,12 @@ p {
 
 .social a {
     text-decoration: none !important; 
- }
+}
+ 
+div {
+    text-decoration: none !important; 
+}
+
+a {
+    text-decoration: none !important;  
+}
