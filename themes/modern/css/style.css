@@ -6562,23 +6562,91 @@ pre code {
   font-size: 16px;
 }
 
-.nav ul {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1em 0;
-  list-style: none;
-}
-.nav li {
-  display: inline-block;
-}
-
 /* --------------- Responsiveness --------------- */
-@media screen and (max-width: 960px) {
-  .main {
-    padding: 0.5em;
-    grid-gap: 5px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "top-left" "top-right" "bottom";
+@media (max-width: 767px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+  }
+  .nav li {
+    display: inline-block;
+  }
+  .landingpage2 {
+    display: block;
+    grid-column: 1;
+  }
+  .landingpage2 h1 {
+    grid-column: 1;
+    grid-row: 1/1;
+    grid-column: span 1;
+    justify-content: center;
+    font-size: 25px;
+  }
+  .grid-container {
+    grid-template-columns: none; /* ADD THIS */
+  }
+  .grid-item1 {
+    grid-column: 1/1;
+    grid-row: 8/8;
+    background-color: rgba(255, 105, 180, 0.5);
+    color: #fff;
+    font-size: 25px;
+  }
+  .grid-item2 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    background-color: rgba(0, 255, 255, 0.5);
+    color: #fff;
+    font-size: 25px;
+  }
+  .grid-item3 {
+    grid-column: 1/1;
+    grid-row: 3/3;
+    background-color: rgba(255, 215, 0, 0.5);
+    color: #fff;
+    font-size: 25px;
+  }
+  .grid-item4 {
+    grid-column: 1/1;
+    grid-row: 4/4;
+    background-color: rgba(32, 178, 170, 0.5);
+    color: #fff;
+    font-size: 25px;
+  }
+  .grid-item5 {
+    grid-column: 1/1;
+    grid-row: 5/5;
+    background-color: rgb(255, 182, 193);
+    color: #fff;
+    font-size: 25px;
+  }
+  .grid-item6 {
+    grid-column: 1/1;
+    grid-row: 6/6;
+    background-color: rgb(152, 251, 152);
+    color: #fff;
+    font-size: 25px;
+  }
+  .grid-item7 {
+    grid-column: 1/1;
+    grid-row: 7/7;
+    background-color: rgba(255, 69, 0, 0.5);
+    color: #fff;
+    font-size: 25px;
+  }
+  .aside {
+    display: none;
+  }
+  .text {
+    text-align: center !important;
+  }
+  .text h1 {
+    text-align: center !important;
   }
 }
 * {
