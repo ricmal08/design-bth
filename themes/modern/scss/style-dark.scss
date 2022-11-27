@@ -12,6 +12,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technologies';
 
 @import 'mobile-nav';
+@import 'variables-dark';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -129,8 +130,6 @@ body {
 
 .logo {
     padding: 3em 3em 3em 0;
-    width: 500px;
-    margin: 25px;
 }
 
 @media (max-width: 767px) {
@@ -158,7 +157,6 @@ body {
     width: 500px;
     margin: 25px;
 }
-
 
 /* Footer */
 
@@ -191,7 +189,7 @@ body {
 }
 
 p {
-    text-align: left;
+    text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
     color: #000;
@@ -263,6 +261,7 @@ h6 {
     color: #000;
 }
 
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
@@ -318,6 +317,10 @@ div {
 
 a {
     text-decoration: none !important;  
+}
+
+.main {
+    background-color: $background-color;
 }
 
 .color-box {

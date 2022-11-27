@@ -6681,7 +6681,7 @@ h6 {
 }
 
 body {
-  background-color: #eee;
+  background-color: rgb(99, 99, 99);
 }
 
 * {
@@ -6763,8 +6763,6 @@ body {
 
 .logo {
   padding: 3em 3em 3em 0;
-  width: 500px;
-  margin: 25px;
 }
 
 @media (max-width: 767px) {
@@ -6944,20 +6942,24 @@ a {
   text-decoration: none !important;
 }
 
+.main {
+  background-color: rgb(99, 99, 99);
+}
+
 .color-box {
-  background-color: rgb(202, 202, 200);
+  background-color: rgb(145, 143, 143);
   grid-column: 1/1;
   grid-row: 2/2;
 }
 
 .load-box {
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(146, 144, 144);
   grid-column: 2/2;
   grid-row: 2/2;
 }
 
 .design-box {
-  background-color: rgb(174, 174, 171);
+  background-color: rgb(123, 123, 123);
   grid-column: 3/3;
   grid-row: 2/2;
 }

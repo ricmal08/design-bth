@@ -1,10 +1,13 @@
 /* --------------- Responsiveness --------------- */
 
-@media (max-width: 767px)  {
-
-    html, body {
+@media (max-width: 767px) {
+    html {
         overflow-x: hidden;
-        }
+    }
+
+    body {
+        overflow-x: hidden;
+    }
 
     .nav {
         ul {
@@ -96,18 +99,14 @@
     } 
     
     .aside {
-        display:none;
+        display: none;
     }
     
-    .text {
-        
-       text-align:center !important;
-      
+    .text { 
+        text-align: center !important;
     }
 
     .text h1 {
-        text-align:center !important;
-       
+        text-align: center !important;
     }
 }
-

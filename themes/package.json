@@ -8,8 +8,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint '**/*.scss'; exit 0",
-    "style": "sass modern/scss/style.scss modern/css/style.css --no-source-map",
-    "style-min": "sass modern/scss/style.scss modern/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass modern/scss/style.scss:modern/css/style.css modern/scss/style-dark.scss:modern/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass modern/scss/style.scss:modern/css/style.min.css modern/scss/style-dark.scss:modern/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass modern/scss/style-dark.scss modern/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass modern/scss/style-dark.scss modern/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass modern/scss/style.scss modern/css/style.css --no-source-map",
+    "style-light-min": "sass modern/scss/style.scss modern/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
