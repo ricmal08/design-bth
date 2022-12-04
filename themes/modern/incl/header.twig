@@ -17,4 +17,10 @@
     <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
     <link rel="stylesheet" href="{{ theme_url }}/css/mobile-menu.css" type="text/css" />
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+
+{% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+{% endif %}
 </head>

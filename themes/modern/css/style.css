@@ -6704,13 +6704,12 @@ ul {
 }
 
 html {
-  height: 100%;
   text-align: center;
   text-decoration: none !important;
 }
 
 body {
-  height: 100%;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -6819,7 +6818,7 @@ body {
 }
 
 p {
-  text-align: justify;
+  text-align: left;
   overflow-wrap: break-word;
   word-wrap: break-word;
   color: #000;
@@ -6960,4 +6959,11 @@ a {
   background-color: rgb(174, 174, 171);
   grid-column: 3/3;
   grid-row: 2/2;
+}
+
+.spreadsheet {
+  display: block;
+  margin: 0 auto;
+  width: 30rem;
+  height: 35rem;
 }

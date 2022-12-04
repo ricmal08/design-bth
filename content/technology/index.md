@@ -14,3 +14,4 @@ Template: technologies
   <a href="%base_url%/technology/python"><div class="grid-item6">Python</div>
   <a href="%base_url%/technology/sqlite"><div class="grid-item7">Sqlite</div>
 </div>
+
